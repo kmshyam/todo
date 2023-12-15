@@ -1,0 +1,102 @@
+.todo-list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+  transition: all 0.3s;
+}
+
+.todo-list-box:hover {
+  transform: scale(1.02);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.time-icon {
+  font-size: 1.6rem;
+  color: #575b61;
+}
+
+.time-box p {
+  font-size: 1.18rem;
+  font-weight: 500;
+  letter-spacing: 0.65px;
+  color: #575b61;
+}
+
+.actions-container {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.edit-icon,
+.delete-icon,
+.revert-icon {
+  font-size: 1.35rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  transform: scale(1.15);
+}
+
+.edit-icon {
+  color: #9c36b5;
+}
+
+.delete-icon {
+  color: #e03131;
+}
+
+.revert-icon {
+  color: #495057;
+}
+
+.todo-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo-content-box p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #495057;
+}
+
+.complete-btn {
+  border-radius: 0.3rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #7855c7 0%, #599ebe 100%);
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.complete-btn:hover {
+  transform: scale(1.05);
+}
+
+.check-icon {
+  font-size: 1.8rem;
+  color: #37b24d;
+}

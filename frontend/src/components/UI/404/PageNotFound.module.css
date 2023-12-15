@@ -1,0 +1,13 @@
+.page-not-found-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5rem;
+  background: radial-gradient(circle 120rem, #fff, #f8f9fa, #f2f7fd);
+}
+
+.page-not-found-container img {
+  width: 45rem;
+  height: 45rem;
+}

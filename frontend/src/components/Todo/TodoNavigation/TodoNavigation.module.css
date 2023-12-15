@@ -1,0 +1,26 @@
+.nav-item-lists {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.nav-item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.45rem;
+  letter-spacing: 1px;
+  background: linear-gradient(to bottom, #ede6fc, #f3effc);
+  color: #777e86;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(to bottom right, #cebff1 0%, #e7dff8 100%);
+  color: #495057;
+  font-weight: 500;
+}
